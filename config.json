@@ -48,8 +48,8 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "Pʀɪʍe |• ᴇʀᴇɴシ︎",
-  "prefix": ",",
+  "nickNameBot": "Pʀɪᴍᴇ • ᴇʀᴇɴシ︎",
+  "prefix": "-",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
@@ -153,15 +153,15 @@
     "presence": false
   },
   "optionsFca": {
-    "forceLogin": true,
-    "listenEvents": true,
-    "updatePresence": true,
-    "listenTyping": true,
-    "logLevel": "error",
-    "selfListen": true,
-    "selfListenEvent": true,
-    "autoMarkDelivery": false,
-    "autoReconnect": false,
-    "notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
-  }
+		"forceLogin": true,
+		"listenEvents": true,
+		"updatePresence": true,
+		"listenTyping": true,
+		"logLevel": "error",
+		"selfListen": false,
+		"selfListenEvent": true,
+		"autoMarkDelivery": false,
+		"autoReconnect": false,
+		"notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
+	}
 }
